@@ -23,8 +23,8 @@
   z-index: 999;
   top: 0;
   left: 0;
-  background-color: #111;
-  overflow-x: hidden;
+  background-color: #f2f3f7;
+  overflow: hidden;
   padding-top: 60px;
   transition: 0.5s;
 }
@@ -48,9 +48,11 @@
   top: 0;
   right: 10px;
   font-size: 36px;
-  color: #fff !important;
+  color: #000 !important;
 }
-
+.side-cart{
+  padding: 0 20px;
+}
 .openbtn {
 
   font-size: 30px;
@@ -356,7 +358,7 @@ a {
   margin-right: 2px;
 }
 .bg-theme {
-  background-color: #ff002e !important;
+  background-color: #ea002a !important;
 }
 .category-container {
   background-color: #f1f3f6;
@@ -387,6 +389,120 @@ a {
 .category-active {
   background-color: #ea002a !important;
   color: #fff !important;
+}
+.f-w-600 {
+  font-weight: 600 !important;
+}
+.theme-color {
+  background-color: #fff;
+  border-radius: 30px;
+  display: flex;
+  float: right;
+  margin-top: 20px;
+  padding: 0;
+  width: fit-content;
+}
+.theme-button-dark {
+  background-color: #ea002a !important;
+  color: #fff !important;
+}
+.theme-button-dark, .theme-button-light {
+  align-items: center;
+  border: none;
+  border-radius: 25px;
+  display: flex;
+  font-size: 13px;
+  font-weight: 700;
+  justify-content: center;
+  padding: 8px 10px;
+}
+.side-menu-links, .side-menu-links ul {
+  padding-left: 0;
+}
+.side-menu-links ul li:hover {
+  background-color: #a3a3a3;
+  padding: 10px 10px 10px 2px;
+}
+.sideba-bottom-order {
+  color: #0000;
+  position: relative;
+}
+.sideba-bottom-order:after {
+  border-bottom: 1px solid #6b6b6b;
+  bottom: 0;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  width: 250px;
+  z-index: 9999999;
+}
+.side-menu-links a {
+  color: #000 !important;
+  font-size: 17px;
+}
+.side-menu-links ul li {
+  align-items: center;
+  display: flex;
+  font-family: National2ragular;
+  font-family: var(--regular-font);
+  gap: 7px;
+  list-style: none;
+  padding: 11px 10px;
+  transition: all .2s;
+  margin: 0 !important;
+  font-weight: 500;
+}
+.sidebar-icons {
+  width: 25px;
+}
+.offcanvas.offcanvas-start {
+  overflow: auto;
+  width: 300px;
+}
+.offcanvas {
+  --bs-offcanvas-width: 28.125rem !important;
+  background-color: #f1f3f6;
+  padding: 0 20px;
+}
+.sideba-bottom-order {
+  color: #0000;
+  position: relative;
+}
+.css-16hxacb {
+  display: inline-flex
+;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  appearance: none;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  min-width: 64px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(211, 47, 47);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+  outline: 0px;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  margin: 0px;
+  text-decoration: none;
+  padding: 6px 16px;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media only screen and (max-width: 615px) {
   .cardsRoud:hover {
@@ -1177,6 +1293,9 @@ a{
 	top: 5px;
 	position: absolute;
 	right: 0px;
+}
+.menu-close {
+  padding: 10px !important;
 }
 @media screen and (max-width: 770px) {
   .slide-content {
